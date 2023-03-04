@@ -19,13 +19,11 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-service
 
 PRODUCT_PACKAGES += \
-    bootctrl.msmnile
-
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.msmnile \
     libgptutils \
     libz \
     libcutils
+
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
@@ -33,3 +31,7 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_verifier \
     update_engine_sideload
+
+    
+
+

@@ -89,8 +89,8 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Partitions (listed in the file) to be wiped under recovery.
-TARGET_RECOVERY_WIPE := device/sony/Griffin/recovery.wipe
-TARGET_RECOVERY_FSTAB := device/sony/Griffin/recovery.fstab
+TARGET_RECOVERY_WIPE := device/sony/Bahamut/recovery.wipe
+TARGET_RECOVERY_FSTAB := device/sony/Bahamut/recovery.fstab
 
 # Workaround for error copying vendor files to recovery ramdisk
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
